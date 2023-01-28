@@ -1,0 +1,10 @@
+body {
+  font-family: $mainFont;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	// background: $backBody;
+	line-height: 1;
+	// text-align: left;
+	z-index: 1;
+  overflow-x: hidden;
+}

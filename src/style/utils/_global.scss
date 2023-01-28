@@ -1,0 +1,128 @@
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+	display: block;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+	outline: 0 !important;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+	margin: 0;
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+// body.lock {
+// 	overflow: hidden;
+// }
+
+a {
+	text-decoration: none !important;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+a,
+article,
+aside,
+audio,
+b,
+body,
+canvas,
+dd,
+details,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+img,
+label,
+li,
+mark,
+menu,
+nav,
+ol,
+p,
+section,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+u,
+ul,
+video {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: 0 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
